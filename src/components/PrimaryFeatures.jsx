@@ -137,6 +137,7 @@ export function PrimaryFeatures() {
                         alt=""
                         priority
                         sizes="(min-width: 1024px) 67.8125rem, (min-width: 640px) 100vw, 45rem"
+                        unoptimized
                       />
                     </div>
                   </Tab.Panel>
