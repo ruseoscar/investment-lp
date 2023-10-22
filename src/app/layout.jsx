@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - Josmaxim',
+    default: 'Josmaxim - Legacy Planning made simple for boutique investors',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Unlocking Possibilities, One Investment at a Time. Our financial wizards turn dreams into dollars, ideas into investments, and plans into profits.',
 }
 
 const inter = Inter({

@@ -52,7 +52,7 @@ export function PrimaryFeatures() {
   return (
     <section
       id="features"
-      aria-label="Features for running your books"
+      aria-label="Josmaxim product offerings"
       className="relative overflow-hidden bg-green-600 pb-28 pt-20 sm:py-32"
     >
       <Container className="relative">

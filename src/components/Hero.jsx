@@ -25,7 +25,7 @@ export function Hero() {
           </svg>
           <span className="relative">made simple</span>
         </span>{' '}
-        for botique investors.
+        for boutique investors.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Unlocking Possibilities, One Investment at a Time. Our financial wizards
@@ -33,7 +33,9 @@ export function Hero() {
         profits.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Contact Us</Button>
+        <Button color="green" href="/register">
+          Contact us
+        </Button>
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">

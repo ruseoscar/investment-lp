@@ -2,33 +2,29 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-call-to-action.jpg'
 
 export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative overflow-hidden bg-green-600 py-32"
+      className="relative overflow-hidden py-32"
+      style={{
+        background: 'rgb(43,151,32)',
+        background:
+          'linear-gradient(0deg, rgba(43,151,32,1) 0%, rgba(94,243,140,1) 100%)',
+      }}
     >
-      <Image
-        className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
-        src={backgroundImage}
-        alt=""
-        width={2347}
-        height={1244}
-        unoptimized
-      />
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+          <h2 className="font-display text-3xl capitalize tracking-tight text-white sm:text-4xl">
+            Get a headstart on your wealth journey
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+            It’s time to take control of your wealth and brings the best to the
+            next generation and loved ones.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
+          <Button href="/" color="white" className="mt-10">
+            Contact us
           </Button>
         </div>
       </Container>
