@@ -1,17 +1,17 @@
 import Link from 'next/link'
 
 import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { NavLink } from '@/components/NavLink'
 
 export function Footer() {
   return (
     <footer className="bg-slate-50">
       <Container>
-        <div className="py-16">
-          <Logo className="mx-auto h-10 w-auto" />
+        <div className="py-5 text-left text-sm text-slate-700">
+          Contact:
+          <p>JOSMAXIM SDN BHD </p> <p>G-3-13, Plaza Arkadia, Jalan Residen 3</p>
+          <p>52200 Kuala Lumpur</p> <p>Tel: 03-2704 8094</p>
         </div>
-        <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
+        <div className="flex flex-col items-center border-t border-slate-400/10 py-5 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <Link href="/" className="group" aria-label="Josmaxim on Twitter">
               <svg
