@@ -6,28 +6,28 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotExpenses from '@/images/screenshots/expenses.jpg'
-import screenshotPayroll from '@/images/screenshots/payroll.jpg'
-import distribution from '@/images/screenshots/distribution.jpg'
+import screenshotProtection from '@/images/screenshots/protection.jpg'
+import screenshotAccumulation from '@/images/screenshots/accumulation.jpg'
+import screenshotDistribution from '@/images/screenshots/distribution.jpg'
 
 const features = [
   {
     title: 'Asset Protection',
     description:
       "To fully embrace one's intrinsic value, it's essential to link every opportunity in life with significance and potential.",
-    image: screenshotPayroll,
+    image: screenshotProtection,
   },
   {
     title: 'Asset Accumulation',
     description:
       "Genuine prosperity or riches have a lasting impact, stretching beyond an individual's lifetime to influence countless future generations.",
-    image: screenshotExpenses,
+    image: screenshotAccumulation,
   },
   {
     title: 'Asset Distribution',
     description:
       "Concentrate on expanding one's financial capabilities to create optimal opportunities for a fulfilling life",
-    image: distribution,
+    image: screenshotDistribution,
   },
 ]
 
